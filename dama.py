@@ -33,7 +33,6 @@ def sachovnice(sach:list,pocet:int):
     velkost = 8
     sirka = 50
     img = Image.new("RGB", (velkost * sirka, velkost * sirka), "black")
-    pixels = img.load()
     draw = ImageDraw.Draw(img)
     nazov_suboru = "kombinacia"+str(pocet)+".png"
     farby = ["white","black"]
